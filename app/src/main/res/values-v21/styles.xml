@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#9C3D98FF</item>
+        <item name="colorPrimaryDark">#9C3D98FF</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Sets color of status bar to transparent-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">#9C3D98FF</item>-->
+<!--        <item name="colorPrimaryDark">#9C3D98FF</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+
+<!--        &lt;!&ndash; Sets color of status bar to transparent&ndash;&gt;-->
+<!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
+<!--    </style>-->
+
+    <!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">#9C3D98FF</item>-->
+<!--        <item name="colorPrimaryDark">#9C3D98FF</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+
+<!--        &lt;!&ndash; Sets color of status bar to transparent&ndash;&gt;-->
+<!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
+<!--    </style>-->
+</resources>

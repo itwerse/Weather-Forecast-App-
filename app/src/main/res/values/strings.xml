@@ -1,0 +1,235 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="api_key">AIzaSyDgzykUVDt1FKpcHsWWNxqpqf7lhpRx0js</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wi_day_cloudy_gusts">&#xf000;</string>
+    <string name="wi_day_cloudy_windy">&#xf001;</string>
+    <string name="wi_day_cloudy">&#xf002;</string>
+    <string name="wi_day_fog">&#xf003;</string>
+    <string name="wi_day_hail">&#xf004;</string>
+    <string name="wi_day_lightning">&#xf005;</string>
+    <string name="wi_day_rain_mix">&#xf006;</string>
+    <string name="wi_day_rain_wind">&#xf007;</string>
+    <string name="wi_day_rain">&#xf008;</string>
+    <string name="wi_day_showers">&#xf009;</string>
+    <string name="wi_day_snow">&#xf00a;</string>
+    <string name="wi_day_sprinkle">&#xf00b;</string>
+    <string name="wi_day_sunny_overcast">&#xf00c;</string>
+    <string name="wi_day_sunny">&#xf00d;</string>
+    <string name="wi_day_storm_showers">&#xf00e;</string>
+    <string name="wi_day_thunderstorm">&#xf010;</string>
+    <string name="wi_cloudy_gusts">&#xf011;</string>
+    <string name="wi_cloudy_windy">&#xf012;</string>
+    <string name="wi_cloudy">&#xf013;</string>
+    <string name="wi_fog">&#xf014;</string>
+    <string name="wi_hail">&#xf015;</string>
+    <string name="wi_lightning">&#xf016;</string>
+    <string name="wi_rain_mix">&#xf017;</string>
+    <string name="wi_rain_wind">&#xf018;</string>
+    <string name="wi_rain">&#xf019;</string>
+    <string name="wi_showers">&#xf01a;</string>
+    <string name="wi_snow">&#xf01b;</string>
+    <string name="wi_sprinkle">&#xf01c;</string>
+    <string name="wi_storm_showers">&#xf01d;</string>
+    <string name="wi_thunderstorm">&#xf01e;</string>
+    <string name="wi_windy">&#xf021;</string>
+    <string name="wi_night_alt_cloudy_gusts">&#xf022;</string>
+    <string name="wi_night_alt_cloudy_windy">&#xf023;</string>
+    <string name="wi_night_alt_hail">&#xf024;</string>
+    <string name="wi_night_alt_lightning">&#xf025;</string>
+    <string name="wi_night_alt_rain_mix">&#xf026;</string>
+    <string name="wi_night_alt_rain_wind">&#xf027;</string>
+    <string name="wi_night_alt_rain">&#xf028;</string>
+    <string name="wi_night_alt_showers">&#xf029;</string>
+    <string name="wi_night_alt_snow">&#xf02a;</string>
+    <string name="wi_night_alt_sprinkle">&#xf02b;</string>
+    <string name="wi_night_alt_storm_showers">&#xf02c;</string>
+    <string name="wi_night_alt_thunderstorm">&#xf02d;</string>
+    <string name="wi_night_clear">&#xf02e;</string>
+    <string name="wi_night_cloudy_gusts">&#xf02f;</string>
+    <string name="wi_night_cloudy_windy">&#xf030;</string>
+    <string name="wi_night_cloudy">&#xf031;</string>
+    <string name="wi_night_hail">&#xf032;</string>
+    <string name="wi_night_lightning">&#xf033;</string>
+    <string name="wi_night_rain_mix">&#xf034;</string>
+    <string name="wi_night_rain_wind">&#xf035;</string>
+    <string name="wi_night_rain">&#xf036;</string>
+    <string name="wi_night_showers">&#xf037;</string>
+    <string name="wi_night_snow">&#xf038;</string>
+    <string name="wi_night_sprinkle">&#xf039;</string>
+    <string name="wi_night_storm_showers">&#xf03a;</string>
+    <string name="wi_night_thunderstorm">&#xf03b;</string>
+    <string name="wi_celsius">&#xf03c;</string>
+    <string name="wi_cloud_down">&#xf03d;</string>
+    <string name="wi_cloud_refresh">&#xf03e;</string>
+    <string name="wi_cloud_up">&#xf040;</string>
+    <string name="wi_cloud">&#xf041;</string>
+    <string name="wi_degrees">&#xf042;</string>
+    <string name="wi_down_left">&#xf043;</string>
+    <string name="wi_down">&#xf044;</string>
+    <string name="wi_fahrenheit">&#xf045;</string>
+    <string name="wi_horizon_alt">&#xf046;</string>
+    <string name="wi_horizon">&#xf047;</string>
+    <string name="wi_left">&#xf048;</string>
+    <string name="wi_night_fog">&#xf04a;</string>
+    <string name="wi_refresh_alt">&#xf04b;</string>
+    <string name="wi_refresh">&#xf04c;</string>
+    <string name="wi_right">&#xf04d;</string>
+    <string name="wi_sprinkles">&#xf04e;</string>
+    <string name="wi_strong_wind">&#xf050;</string>
+    <string name="wi_sunrise">&#xf051;</string>
+    <string name="wi_sunset">&#xf052;</string>
+    <string name="wi_thermometer_exterior">&#xf053;</string>
+    <string name="wi_thermometer_internal">&#xf054;</string>
+    <string name="wi_thermometer">&#xf055;</string>
+    <string name="wi_tornado">&#xf056;</string>
+    <string name="wi_up_right">&#xf057;</string>
+    <string name="wi_up">&#xf058;</string>
+    <string name="wi_wind_west">&#xf059;</string>
+    <string name="wi_wind_south_west">&#xf05a;</string>
+    <string name="wi_wind_south_east">&#xf05b;</string>
+    <string name="wi_wind_south">&#xf05c;</string>
+    <string name="wi_wind_north_west">&#xf05d;</string>
+    <string name="wi_wind_north_east">&#xf05e;</string>
+    <string name="wi_wind_north">&#xf060;</string>
+    <string name="wi_wind_east">&#xf061;</string>
+    <string name="wi_smoke">&#xf062;</string>
+    <string name="wi_dust">&#xf063;</string>
+    <string name="wi_snow_wind">&#xf064;</string>
+    <string name="wi_day_snow_wind">&#xf065;</string>
+    <string name="wi_night_snow_wind">&#xf066;</string>
+    <string name="wi_night_alt_snow_wind">&#xf067;</string>
+    <string name="wi_day_sleet_storm">&#xf068;</string>
+    <string name="wi_night_sleet_storm">&#xf069;</string>
+    <string name="wi_night_alt_sleet_storm">&#xf06a;</string>
+    <string name="wi_day_snow_thunderstorm">&#xf06b;</string>
+    <string name="wi_night_snow_thunderstorm">&#xf06c;</string>
+    <string name="wi_night_alt_snow_thunderstorm">&#xf06d;</string>
+    <string name="wi_solar_eclipse">&#xf06e;</string>
+    <string name="wi_lunar_eclipse">&#xf070;</string>
+    <string name="wi_meteor">&#xf071;</string>
+    <string name="wi_hot">&#xf072;</string>
+    <string name="wi_hurricane">&#xf073;</string>
+    <string name="wi_smog">&#xf074;</string>
+    <string name="wi_alien">&#xf075;</string>
+    <string name="wi_snowflake_cold">&#xf076;</string>
+    <string name="wi_stars">&#xf077;</string>
+    <string name="wi_moon_full">&#xf078;</string>
+    <string name="wi_moon_waxing_gibbous">&#xf079;</string>
+    <string name="wi_moon_waxing_quarter">&#xf07a;</string>
+    <string name="wi_moon_waxing_crescent">&#xf07b;</string>
+    <string name="wi_moon_young">&#xf07c;</string>
+    <string name="wi_moon_new">&#xf07d;</string>
+    <string name="wi_moon_old">&#xf07e;</string>
+    <string name="wi_moon_waning_crescent">&#xf080;</string>
+    <string name="wi_moon_waning_quarter">&#xf081;</string>
+    <string name="wi_moon_waning_gibbous">&#xf082;</string>
+    <string name="wi_night_partly_cloudy">&#xf083;</string>
+    <string name="action_settings">Settings</string>
+    <string name="toolbar_title" />
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <string name="internet_error">No Internet Connection</string>
+    <string name="citynotfound">City not found</string>
+
+    <!-- Settings/Units -->
+    <string name="settings_title_units">Units</string>
+    <string name="setting_lengthUnits">Length units</string>
+    <string name="setting_speedUnits">Speed units</string>
+    <string name="setting_tempUnits">Temperature units</string>
+    <string name="setting_showTempAsInteger">Show temperature only as an integer</string>
+    <string name="setting_pressureUnits">Pressure units</string>
+    <string name="setting_auto_detect_location">Detect Location</string>
+    <string name="setting_differentiateDaysByTint">Differentiate Days with Color</string>
+
+    <string name="setting_unit_mps">Meters per second (m/s)</string>
+    <string name="setting_unit_kph">Kilometers per hour (kph)</string>
+    <string name="setting_unit_mph">Miles per hour (mph)</string>
+    <string name="setting_unit_bft">Beaufort wind scale (bft)</string>
+    <string name="setting_unit_kn">Knots (kn)</string>
+    <string name="setting_unit_Celsuis">Celsius</string>
+    <string name="setting_unit_Fahrenheit">Fahrenheit</string>
+    <string name="setting_unit_Kelvin">Kelvin</string>
+
+    <string name="setting_unit_mm">Millimeters (mm)</string>
+    <string name="setting_unit_in">Inches (in)</string>
+
+    <string name="setting_unit_hpa">hPa/mBar</string>
+    <string name="setting_unit_kpa">kPa</string>
+    <string name="setting_unit_mmhg">mm Hg</string>
+    <string name="setting_unit_inhg">in Hg</string>
+
+    <string name="speed_unit_mps">m/s</string>
+    <string name="speed_unit_kph">kph</string>
+    <string name="speed_unit_mph">mph</string>
+    <string name="speed_unit_kn">kn</string>
+
+    <string name="pressure_unit_hpa">hPa/mBar</string>
+    <string name="pressure_unit_kpa">kPa</string>
+    <string name="pressure_unit_mmhg">mm Hg</string>
+    <string name="pressure_unit_inhg">in Hg</string>
+    <string name="uvi_no_info">No Info</string>
+    <string name="uvi_low">Low</string>
+    <string name="uvi_moderate">Moderate</string>
+    <string name="uvi_high">High</string>
+    <string name="uvi_very_high">Very High</string>
+    <string name="uvi_extreme">Extreme</string>
+
+    <!-- Settings/Date format -->
+    <string name="error_dateFormat">
+
+    </string>
+    <string name="setting_dateFormat"></string>
+    <string name="setting_dateFormatCustom"></string>
+    <string name="setting_dateFormatCustom_summary"></string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="temperature">Temperature</string>
+    <string name="temperature_pp">
+The purpose of this privacy policy page is to describe our practices regarding data collection, use and disclosure. We are obligate not to share your personal information with any one for any other purpose apart from performing functions in applications.\n
+<b>Personal Data:</b>\n
+Personal data is a type of personally identifiable information that particularly identifies you such as name, email address. Only with your consent we store and gather personal data. We may use personal data to send you emails to you with consent that only comprises of information regarding apps like services, new features, special offers etc. \n
+
+<b>Non-Personal data:</b>\n
+Non-personal data is a kind of data that don’t define or represents you directly.  We may gather non-personal data like model of device, version of operating system, country code other features that are use for application management and for communication with you. \n
+
+<b>Location Data:</b>\n
+Our apps may request your location data in some cases for performing functions. We may utilize different technology to find location like WIFI, GPS and other network-based data such as IP address. Your GPS location is not reached with your concur. We are obligate not to provide your location data for advertising networks and third parties. \n
+
+<b>Ad serving Technology:</b>\n
+We may divulge non-personal data to third parties or/and permit third parties to gather non-personal data via own entrenched technology. Third party advertising company may posy or identifies unique cookies, anonymous identifier and other similar technology for serving ads to you. \n
+
+<b>Transfer and disclosure of Personal data:</b>\n
+We may disclose information for responding court orders, legal proceedings along with creating/practicing legal rights or legal claims. In order to prevent scam, frauds and other illegal activities also threat to personal safety we will share both personal and non-personal information.\n
+
+
+<b>Third party services:</b>\n
+To postulate you better services we use wide range of third party services. We don’t have any influence to control third party websites and services, link to these websites and services appear in our application doesn’t mean that we approve them or other practices related to use any information. \n
+<b>Changes to privacy policy:</b>\n
+The privacy policy may change or update intermittently. We will inform you about alterations in the privacy policy. Your incessant use of our application and services means that you have consensus in those amendments.\n
+<b>Contact us:</b>\n
+For further queries and questions please contact us at onepixel.pk@gmail.com\n
+
+</string>
+    <string name="daily_forecast">Daily Forcast</string>
+    <string name="details">Details</string>
+    <string name="hourly_forecast">Hourly Forcast</string>
+    <string name="hours">12 hours</string>
+    <string name="dayss">16 days</string>
+    <string name="sun_and_moon">Sunrise and Sunset</string>
+    <string name="dialog_add_label" />
+    <string name="dialog_add_add_button" />
+    <string name="dialog_add_close_button" />
+    <string name="dialog_add_no_city_found" />
+    <string name="dialog_edit_label" />
+    <string name="dialog_edit_change_button" />
+    <string name="edit_location_range_error" />
+    <string name="edit_location_hint_ID" />
+    <string name="edit_location_hint_country_code" />
+    <string name="edit_location_hint_longitude" />
+    <string name="edit_location_hint_latitude" />
+    <string name="edit_location_hint_name" />
+    <string name="edit_location_hint_search" />
+    <string name="google_maps_key">AIzaSyA6nUwh2fm2UgBLOftKm0n-daVHN7VL20o</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="RedAccent" parent="ThemeOverlay.AppCompat.Light">
+    <item name="colorAccent">#FFC107</item>
+  </style>
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">#9C3D98FF</item>
+    <item name="colorPrimaryDark">#9C3D98FF</item>
+    <item name="colorAccent">@color/colorAccent</item>
+
+    <!-- Sets color of status bar to transparent-->
+    <item name="android:statusBarColor">@android:color/transparent</item>
+  </style>
+  <style name="NavigationViewStyle">
+    <item name="android:textSize">20sp</item> <!-- menu item text size-->
+    <item name="android:listPreferredItemHeightSmall">@dimen/_40sdp</item><!-- menu item height-->
+
+  </style>
+  <style name="tabTheme" parent="android:style/Theme">
+    <item name="android:tabWidgetStyle">@style/Widget.TabWidget</item>
+  </style>
+
+  <style name="Widget.TabWidget" parent="android:Theme">
+    <item name="android:tabStripEnabled">false</item>
+  </style>
+  <style name="CircularDeterminateProgressBar">
+    <item name="android:indeterminateOnly">false</item>
+    <item name="android:progressDrawable">@drawable/circle</item>
+  </style>    <style name="SeekArc">
+  <item name="arcColor">@color/progress_gray_dark</item>
+</style>
+
+  <style name="SeekArcLight">
+    <item name="arcColor">@color/progress_gray</item>
+  </style>
+  <style name="AppTheme.weather" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#9C3D98FF</item>
+    <item name="colorPrimaryDark">#9C3D98FF</item>
+    <item name="android:windowBackground">#FFFF</item>
+  </style>
+  <style name="darkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">#fff</item>
+    <item name="colorPrimaryDark">#fff</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="background_color">#131313</item>
+    <!--     Our app's background changes to black when dark mode is activated -->
+    <item name="text_color">#ffff</item>
+    <!--     text and button color change to white to contrast with the app's background-->
+    <item name="button_color">#ffff</item>
+  </style>
+
+</resources>

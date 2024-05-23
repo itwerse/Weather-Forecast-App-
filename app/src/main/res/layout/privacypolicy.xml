@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/_12sdp"
+    android:layout_marginRight="@dimen/_12sdp"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_feedback">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sdp"
+        android:text="Privacy Policy"
+        android:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/btnDone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="@dimen/_5sdp"-->
+<!--                android:text="Personal Information"-->
+<!--                android:fontFamily="sans-serif"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="@dimen/_16sdp" />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The purpose of this privacy policy page is to describe our practices regarding data collection, use and disclosure. We are obligate not to share your personal information with any one for any other purpose apart from performing functions in applications."
+                android:fontFamily="sans-serif"
+                android:textColor="#000"
+                android:textSize="@dimen/_12sdp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Personal data:"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:textColor="#000"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal data is a type of personally identifiable information that particularly identifies you such as name, email address. Only with your consent we store and gather personal data. We may use personal data to send you emails to you with consent that only comprises of information regarding apps like services, new features, special offers etc. "
+                android:fontFamily="sans-serif"
+                android:textColor="#000"
+                android:textSize="@dimen/_12sdp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Non-Personal data:"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:textColor="#000"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Non-personal data is a kind of data that don’t define or represents you directly.  We may gather non-personal data like model of device, version of operating system, country code other features that are use for application management and for communication with you."
+                android:fontFamily="sans-serif"
+                android:textColor="#000"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Location Data:"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:textColor="#000"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our apps may request your location data in some cases for performing functions. We may utilize different technology to find location like WIFI, GPS and other network-based data such as IP address. Your GPS location is not reached with your concur. We are obligate not to provide your location data for advertising networks and third parties."
+                android:textColor="#000"
+
+                android:fontFamily="sans-serif"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="sans-serif"
+                android:text="Ad serving Technology:"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We may divulge non-personal data to third parties or/and permit third parties to gather non-personal data via own entrenched technology. Third party advertising company may posy or identifies unique cookies, anonymous identifier and other similar technology for serving ads to you."
+                android:textColor="#000"
+                android:fontFamily="sans-serif"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Transfer and disclosure of Personal data:"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:fontFamily="sans-serif"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="sans-serif"
+                android:text="We may disclose information for responding court orders, legal proceedings along with creating/practicing legal rights or legal claims. In order to prevent scam, frauds and other illegal activities also threat to personal safety we will share both personal and non-personal information."
+                android:textColor="#000"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:text="Third party services:"
+                android:textColor="#000"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="To postulate you better services we use wide range of third party services. We don’t have any influence to control third party websites and services, link to these websites and services appear in our application doesn’t mean that we approve them or other practices related to use any information. "
+                android:fontFamily="sans-serif"
+                android:textColor="#000"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:text="Changes to privacy policy:"
+                android:textColor="#000"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="The privacy policy may change or update intermittently. We will inform you about alterations in the privacy policy. Your incessant use of our application and services means that you have consensus in those amendments."
+                android:fontFamily="sans-serif"
+                android:textColor="#000"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:text="Contact us:"
+                android:textColor="#000"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="For further queries and questions please contact us at onepixel.pk@gmail.com."
+                android:fontFamily="sans-serif"
+                android:textColor="#000"
+                android:textSize="@dimen/_12sdp" />
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="@dimen/_5sdp"-->
+<!--                android:fontFamily="sans-serif"-->
+<!--                android:textStyle="bold"-->
+<!--                android:text="Changes in Privacy Policy:"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="@dimen/_16sdp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="@dimen/_5sdp"-->
+<!--                android:text="We may make changes and update this page from time to time. Therefore, you are notified to check and review our privacy policy. We will let you know of any amendments by posting the new privacy policy on this page."-->
+<!--                android:fontFamily="sans-serif"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="@dimen/_12sdp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="@dimen/_5sdp"-->
+<!--                android:fontFamily="sans-serif"-->
+<!--                android:textStyle="bold"-->
+<!--                android:text="Contact us:"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="@dimen/_16sdp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="@dimen/_5sdp"-->
+<!--                android:text="For more queries and information contact us at "-->
+<!--                android:fontFamily="sans-serif"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="@dimen/_12sdp" />-->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_33sdp"
+        android:text="Done"
+        android:gravity="center"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_40sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@drawable/round_button_back"
+        android:padding="@dimen/_8sdp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

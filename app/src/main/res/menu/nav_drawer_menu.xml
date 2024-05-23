@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+            <item
+                android:id="@+id/nav_home_id"
+                android:icon="@drawable/ic_home_svgrepo_com_1"
+                android:title="Home" />
+            <item
+                android:id="@+id/id_add_city"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_darkmode_id"
+                android:title="Dark Mode"
+                android:icon="@drawable/ic_moon_svgrepo_com__2_"
+                app:actionLayout="@layout/nav_drawer_darkmode_switch"
+                />
+    <item  android:visible="true"
+        android:title="About Fig Weather">
+        <menu>
+            <item
+                android:id="@+id/privacy"
+                android:title="Privacy Policy "
+                android:icon="@drawable/ic_feedback_svgrepo_com_3"
+                />
+            <item
+                android:id="@+id/feedback"
+                android:title="Feedback"
+                android:visible="false"
+                android:icon="@drawable/baseline_feed_24"
+                />
+            <item
+                android:id="@+id/rate_us"
+                android:title="Rate us"
+                android:visible="false"
+                android:icon="@drawable/rates"
+                />
+            <item android:id="@+id/share"
+               android:title="Share"
+                android:visible="false"
+
+                android:icon="@drawable/ic_baseline_share_24"
+                />
+
+        </menu>
+    </item>
+    <item  android:visible="true"
+        android:title="App version" >
+        <menu>
+    <item android:title="Version 1.0"
+
+    />
+        </menu>
+    </item>
+</menu>

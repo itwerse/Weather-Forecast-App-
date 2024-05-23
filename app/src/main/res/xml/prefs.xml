@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_title_units">
+        <ListPreference
+            android:defaultValue="°F"
+            android:entries="@array/temperatureUnits"
+            android:entryValues="@array/temperatureUnitsValues"
+            android:key="unit"
+            android:title="@string/setting_tempUnits" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="temperatureInteger"
+            android:title="@string/setting_showTempAsInteger" />
+
+        <ListPreference
+            android:defaultValue="in"
+            android:entries="@array/lengthUnits"
+            android:entryValues="@array/lengthUnitsValues"
+            android:key="lengthUnit"
+            android:title="@string/setting_lengthUnits" />
+
+        <ListPreference
+            android:defaultValue="mph"
+            android:entries="@array/speedUnits"
+            android:entryValues="@array/speedUnitsValues"
+            android:key="speedUnit"
+            android:title="@string/setting_speedUnits" />
+
+        <ListPreference
+            android:defaultValue="mm Hg"
+            android:entries="@array/pressureUnits"
+            android:entryValues="@array/pressureUnitsValues"
+            android:key="pressureUnit"
+            android:title="@string/setting_pressureUnits" />
+
+        <!-- dateFormat's (ListPreference) android:defaultValue and android:entries
+             are derived from entryValues dynamically in code in SettingsActivity -->
+<!--        <ListPreference-->
+<!--            android:entryValues="@array/dateFormatsValues"-->
+<!--            android:key="dateFormat"-->
+<!--            -->
+<!--            android:title="@string/setting_dateFormat" />-->
+
+<!--        <EditTextPreference-->
+<!--            android:key="dateFormatCustom"-->
+<!--            android:summary="@string/setting_dateFormatCustom_summary"-->
+<!--            android:visibility="invisible"-->
+<!--            android:title="@string/setting_dateFormatCustom" />-->
+
+    </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>
