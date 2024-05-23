@@ -21,8 +21,8 @@ An Android application that provides weather updates using the OpenWeather API a
 
 ## Screenshots
 
-![Home Screen]([path/to/home_screen.png](https://firebasestorage.googleapis.com/v0/b/live-scores-schedule.appspot.com/o/WhatsApp%20Image%202024-05-23%20at%203.36.37%20PM%20(1).jpeg?alt=media&token=4c54672c-6858-434b-b48d-e8634d41efef)
-![Search Screen]([path/to/search_screen.png](https://firebasestorage.googleapis.com/v0/b/live-scores-schedule.appspot.com/o/WhatsApp%20Image%202024-05-23%20at%203.36.37%20PM.jpeg?alt=media&token=165f02be-bd01-4fef-8ebc-f8574214dfe9)
+![Search Screen]([path/to/home_screen.png](https://firebasestorage.googleapis.com/v0/b/live-scores-schedule.appspot.com/o/WhatsApp%20Image%202024-05-23%20at%203.36.37%20PM%20(1).jpeg?alt=media&token=4c54672c-6858-434b-b48d-e8634d41efef)
+![Home Screen]([path/to/search_screen.png](https://firebasestorage.googleapis.com/v0/b/live-scores-schedule.appspot.com/o/WhatsApp%20Image%202024-05-23%20at%203.36.37%20PM.jpeg?alt=media&token=165f02be-bd01-4fef-8ebc-f8574214dfe9)
 
 ## Installation
 
